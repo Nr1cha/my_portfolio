@@ -1,0 +1,19 @@
+body  {
+  background-color: grey;
+}
+.navBar {
+  list-style-type: none;
+}
+.navBar li {
+  display: inline;
+  float: right;
+  background: white;
+}
+li a {
+  display: block;
+  padding: 8px;
+}
+.container  {
+  display: grid;
+  background: white;
+}
