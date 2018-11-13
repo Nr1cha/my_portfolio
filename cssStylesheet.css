@@ -17,3 +17,8 @@ li a {
   display: grid;
   background: white;
 }
+.footerNav li {
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+}
