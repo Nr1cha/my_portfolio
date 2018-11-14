@@ -1,11 +1,18 @@
 .navBar {
+  /* position: absolute; */
+  /* list-style-type: none; */
+  width: 100%;
+}
+
+.navBar ul  {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navBar li {
   display: inline;
-  float: right;
-  background: white;
+  /* float: right; */
 }
 
 li a {
@@ -18,17 +25,26 @@ body {
 }
 
 h1 {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   display: flex;
-  position: fixed;
+  /* position: fixed; */
   align-items: center;
   justify-content: center;
 }
 
 .container {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   background: white;
+
+}
+.container > div  {
+  background-color: blue;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 .footerNav {
