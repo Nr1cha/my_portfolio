@@ -17,6 +17,7 @@
 
 .navBar ul  {
   list-style-type: none;
+  display: inline-block;
   margin: 0;
   padding: 0;
 }
@@ -25,7 +26,6 @@
 <<<<<<< HEAD
   display: inline;
 =======
-  display: inline-block;
 >>>>>>> 6c41541c008b9933864d437abb00737938f9b1b7
   /* float: right; */
 }
