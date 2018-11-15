@@ -1,7 +1,6 @@
 .navBar {
   /* position: absolute; */
-<<<<<<< HEAD
-=======
+  display: inline;
   right: 0;
   left: 0;
   /* bottom: 0; */
@@ -10,23 +9,18 @@
   background-color: #efefef;
   text-align: right;
   /* position: absolute; */
->>>>>>> 6c41541c008b9933864d437abb00737938f9b1b7
   /* list-style-type: none; */
   width: 100%;
 }
 
 .navBar ul  {
   list-style-type: none;
-  display: inline-block;
   margin: 0;
   padding: 0;
 }
 
 .navBar li {
-<<<<<<< HEAD
-  display: inline;
-=======
->>>>>>> 6c41541c008b9933864d437abb00737938f9b1b7
+  display: inline-block;
   /* float: right; */
 }
 
@@ -38,7 +32,7 @@ li a {
 body {
   margin: 0 auto;
   padding: 0;
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_ebF_N-VtrXfp8Q78AbqpTrfv1ki0uCVkwbUHge_xXwepuHb);
+  background-color: grey;
 }
 
 h1 {
@@ -54,19 +48,12 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-<<<<<<< HEAD
-  background: white;
-=======
   /* background: white; */
->>>>>>> 6c41541c008b9933864d437abb00737938f9b1b7
 
 }
 .container > div  {
   background-color: blue;
-<<<<<<< HEAD
-=======
   color: white;
->>>>>>> 6c41541c008b9933864d437abb00737938f9b1b7
   margin: 10px;
   padding: 20px;
   font-size: 30px;
