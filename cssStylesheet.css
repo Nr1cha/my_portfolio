@@ -1,15 +1,13 @@
 .navBar {
   /* position: absolute; */
-  display: inline;
+  display: inline-block;
   right: 0;
   left: 0;
-  /* bottom: 0; */
-  /* padding: 1rem; */
   padding-left: 0;
   background-color: #efefef;
   text-align: right;
   /* position: absolute; */
-  /* list-style-type: none; */
+  list-style-type: none;
   width: 100%;
 }
 
@@ -21,6 +19,7 @@
 
 .navBar li {
   display: inline-block;
+  max-width: 100%;
   /* float: right; */
 }
 
