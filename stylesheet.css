@@ -1,27 +1,24 @@
-.navBar {
-  /* position: absolute; */
+/* NAVBAR SECTION */
+#navBar {
   display: inline-block;
-  /* right: 0;
-  left: 0; */
   padding-left: 0;
-  background-color: #efefef;
-  text-align: left;
-  /* position: absolute; */
+  background-color: #1d1d1d;
+  text-align: center;
   list-style-type: none;
   width: 100%;
+  align-content: center;
 }
 
-.navBar ul  {
+#navBar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.navBar li {
+#navBar li {
   display: inline-block;
   padding: 2px;
   max-width: 50%;
-  /* float: right; */
 }
 
 li a {
@@ -29,6 +26,7 @@ li a {
   padding: 8px;
 }
 
+/* page content */
 body {
   margin: 0 auto;
   padding: 0;
@@ -40,25 +38,23 @@ h1 {
   width: 100%;
   display: block;
   text-align: center;
-  /* position: fixed; */
-  /* align-items: center;
-  justify-content: center; */
 }
+
 /*GRID CONTAINER*/
 .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* background: white; */
-
 }
-.container > div  {
+
+.container>div {
   background-color: #468ee4;
   color: white;
   margin: 10px 40px;
   padding: 20px;
   font-size: 30px;
 }
+
 /* FOOTER */
 .footerNav {
   position: absolute;
@@ -73,5 +69,4 @@ h1 {
 .footerNav li {
   display: inline-block;
   list-style-type: none;
-  /* float: right; */
 }
