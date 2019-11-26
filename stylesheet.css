@@ -1,24 +1,23 @@
 /* NAVBAR SECTION */
-#navBar {
+#navbar {
   display: inline-block;
-  padding-left: 0;
+  /* padding-left: 0; */
   background-color: #1d1d1d;
   text-align: center;
-  list-style-type: none;
   width: 100%;
-  align-content: center;
 }
 
-#navBar ul {
+#navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-#navBar li {
+#navbar li {
   display: inline-block;
   padding: 2px;
-  max-width: 50%;
+  /* max-width: 50%; */
+  list-style-type: none;
 }
 
 li a {
@@ -34,9 +33,16 @@ body {
 }
 
 h1 {
-  height: 400px;
+  height: 50%;
   width: 100%;
   display: block;
+  text-align: center;
+}
+
+#welcome-section > a {
+  margin: 5%;
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
 }
 
@@ -53,6 +59,12 @@ h1 {
   margin: 10px 40px;
   padding: 20px;
   font-size: 30px;
+}
+
+@media (min-height: 800px){
+  body {
+    background-color: darkgray;
+  }
 }
 
 /* FOOTER */
