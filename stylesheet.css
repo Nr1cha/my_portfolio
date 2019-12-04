@@ -34,15 +34,17 @@ body {
   background-color: grey;
 }
 
+.titlename{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
+}
+
 .titlename>h1 {
-  height: 400px;
-  width: 800px;
-  background: red;
-  /* height: 50vh;
-  width: 100%;
-  display: block;
-  text-align: center; */
-  /* padding: 10vmax; */
+  align-items: center;
 }
 
 #welcome-section {
@@ -67,7 +69,7 @@ body {
   background-color: #468ee4;
   color: white;
   margin: 10px 40px;
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 30px;
 }
 
