@@ -1,11 +1,11 @@
 /* NAVBAR SECTION */
 #navbar {
+  position: relative;
   display: inline-block;
   /* padding-left: 0; */
   background-color: #1d1d1d;
   text-align: center;
   width: 100%;
-  position: relative;
   top: 0;
 }
 
@@ -60,16 +60,16 @@ body {
 
 /*GRID CONTAINER*/
 .container {
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.container>div {
+.container > a {
   background-color: #468ee4;
   color: white;
   margin: 10px 40px;
-  /* padding: 20px; */
   font-size: 30px;
 }
 
