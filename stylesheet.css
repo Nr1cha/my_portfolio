@@ -71,6 +71,16 @@ body {
   color: white;
   margin: 10px 40px;
   font-size: 30px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.test {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
 }
 
 @media (min-height: 800px){
